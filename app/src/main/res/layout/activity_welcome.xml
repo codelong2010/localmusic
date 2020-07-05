@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feng">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:src="@drawable/music"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小龙本地音乐播放器"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎你！"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="进入播放器"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_style"/>
+</LinearLayout>
